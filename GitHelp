@@ -1,1 +1,28 @@
 // Cheet Sheet for Working with GIT
+
+Push a Local Repository into Git Hub
+
+1. Initialise Local Repository
+    git init
+
+2. Configure Remote Repository
+    git config --global user.email "f.vinodhfranklin@gmail.com"
+    git config --global user.name "fvinodh1978"   
+
+3. To verify that you set the remote URL correctly, run the following command.
+    git remote -v
+
+4. Create a Branch in Remote Repository
+   git checkout -b ＜new-branch＞
+
+5. Add files to Git
+   git add .
+
+6. Commit the code into Git
+   git commit -m "Initial Commit"
+    
+7. Configure Remote repository
+   git remote add origin https://github.com/fvinodh1978/CircleCi-Demo.git
+
+8. push the files to remote git
+   git push -u origin master
