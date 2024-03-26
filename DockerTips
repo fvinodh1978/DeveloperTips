@@ -1,1 +1,17 @@
+Docker Commands
+
+1. Command to check the version of Docker
+   >docker --version
+
+2. Command to lost down list of all the Images available in the Docker repository
+   >docker images
+
+3. Command to pull a image
+   >docker pull <image name>
+
+4. Run a docker image
+   >docker run -it -d <image name>
+
+5. List of all running Containers
+   > docker ps -a
 
