@@ -24,3 +24,24 @@ Cheet Sheet for Working with Docker
 8. Add an Image into Docker Hub Repository
    > docker commit <Container ID> <Repository Name>/<Container Name>
    > docker push fvinodhfranklin/ubuntu
+
+9. Delete a Docker Container
+   > docker rm <container ID>
+
+10. Delete an Docker Image Locally
+   > docker rmi -f <Image ID>
+
+11. How do I delete a docker image from docker hub via command line?
+   export your_username=myuser
+   export your_password=mypass
+   export ORGANIZATION=myorg # (if it's personal, then it's your username)
+   export your_repo_name=myrepo
+   
+   curl -X DELETE -u "your_username:your_password" https://index.docker.io/v1/repositories/your_namespace/your_repo_name/
+   or
+   curl -X "DELETE" -u your_username:your_password https://cloud.docker.com/v2/repositories/$ORGANIZATION/$REPOSITORY/tags/$TAG/
+
+
+
+
+
