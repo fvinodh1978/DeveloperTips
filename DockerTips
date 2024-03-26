@@ -1,4 +1,4 @@
-Docker Commands
+Cheet Sheet for Working with Docker
 
 1. Command to check the version of Docker
    >docker --version
