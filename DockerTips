@@ -1,17 +1,26 @@
 Cheet Sheet for Working with Docker
 
 1. Command to check the version of Docker
-   >docker --version
+   > docker --version
 
 2. Command to lost down list of all the Images available in the Docker repository
-   >docker images
+   > docker images
 
-3. Command to pull a image
-   >docker pull <image name>
+3. Command to pull a image from External Docker repository
+   > docker pull <image name>
 
 4. Run a docker image
-   >docker run -it -d <image name>
+   > docker run -it -d <image name>
 
 5. List of all running Containers
    > docker ps -a
 
+6. Access a Container
+   > docker exec -it <Container ID> bash
+
+7. Stop a running Container
+   > docker stop <Container ID>
+
+8. Add an Image into Docker Hub Repository
+   > docker commit <Container ID> <Repository Name>/<Container Name>
+   > docker push fvinodhfranklin/ubuntu
