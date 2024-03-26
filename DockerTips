@@ -31,6 +31,7 @@ Cheet Sheet for Working with Docker
 
 10. Delete an Docker Image Locally
    > docker rmi -f <Image ID>
+   > docker rmi <Image ID>
 
 11. How do I delete a docker image from docker hub via command line?
    export your_username=myuser
