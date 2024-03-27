@@ -23,11 +23,17 @@ Cheet Sheet for Working with Docker
    > docker stop <Container ID>
 
 8. Add an Image into Docker Hub Repository
+   > docker run -it -d <image name>
    > docker commit <Container ID> <Repository Name>/<Container Name>
    > docker push fvinodhfranklin/ubuntu
 
-9. Delete a Docker Container
+9. Remove a Docker Container
+   > docker ps -q | xargs docker stop
+   > docker ps -q | xargs docker rm
    > docker rm <container ID>
+
+9. Remove all Docker Containers
+   > docker rm $(docker ps -aq)
 
 10. Delete an Docker Image Locally
    > docker rmi -f <Image ID>
@@ -43,7 +49,9 @@ Cheet Sheet for Working with Docker
    or
    curl -X "DELETE" -u your_username:your_password https://cloud.docker.com/v2/repositories/$ORGANIZATION/$REPOSITORY/tags/$TAG/
 
-
+12. Build a docker Image
+   > docker build -t <image name> .
+   > docker build -f Dockerfile -t <image name> .
 
 
 
