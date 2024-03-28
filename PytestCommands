@@ -1,6 +1,12 @@
 // Cheet Sheet for Working with pytest
 
-1. Run all tests that contain a <string>
+1. Run a simple test with pytest
+  > pytest <test file>
+
+2. run all the tests methods which contain "test"
+  > pytest
+
+3. Run all tests that contain a <string>
   > pytest -k <string> -v
 
-2. 
+4. 
