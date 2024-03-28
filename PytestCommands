@@ -13,4 +13,4 @@ xecu// Cheet Sheet for Working with pytest
   > pytest -m <marker name>
 
 5. Run Except a particular Marker
-  > pytest -m "not marker name"
+  > pytest -m "not <marker name>"
