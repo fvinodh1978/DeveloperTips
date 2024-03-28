@@ -1,9 +1,9 @@
-xecu// Cheet Sheet for Working with pytest
+// Cheet Sheet for Working with pytest
 
 1. Run a simple test with pytest
   > pytest <test file>
 
-2. run all the tests methods which contain "test"
+2. run all the tests methods from all class files
   > pytest
 
 3. Run all tests that contain a <string>
