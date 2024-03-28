@@ -1,4 +1,4 @@
-// Cheet Sheet for Working with pytest
+xecu// Cheet Sheet for Working with pytest
 
 1. Run a simple test with pytest
   > pytest <test file>
@@ -9,4 +9,8 @@
 3. Run all tests that contain a <string>
   > pytest -k <string> -v
 
-4. 
+4. Run Tests using markers
+  > pytest -m <marker name>
+
+5. Run Except a particular Marker
+  > pytest -m "not marker name"
