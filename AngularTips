@@ -1,0 +1,4 @@
+Create a new Angular application
+  ng new <Application Name>
+Add a New App without Standalone
+  ng new my-app --no-standalone --routing --ssr=false
