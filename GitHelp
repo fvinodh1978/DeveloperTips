@@ -16,22 +16,25 @@ Push a Local Repository into Git Hub
 
 2. Configure Remote Repository
     git config --global user.email "f.vinodhfranklin@gmail.com"
-    git config --global user.name "fvinodh1978"   
+    git config --global user.name "fvinodh1978"  
 
-3. To verify that you set the remote URL correctly, run the following command.
-    git remote -v
-
-4. Create a Branch in Remote Repository
-   git checkout -b ＜new-branch＞
-
-5. Add files to Git
-   git add .
-
-6. Commit the code into Git
-   git commit -m "Initial Commit"
-    
-7. Configure Remote repository
+3. Configure Remote repository
    git remote add origin https://github.com/fvinodh1978/CircleCi-Demo.git
 
-8. push the files to specific remote git Branch
+4. To verify that you set the remote URL correctly, run the following command.
+    git remote -v
+
+5. Create a Branch in Remote Repository
+   git checkout -b ＜new-branch＞
+
+6. Add files to Git Staging
+   git add .
+
+7. Remove Files from Git Staging Area
+   git reset
+
+8. Commit the code into Git
+   git commit -m "Initial Commit"
+    
+9. push the files to specific remote git Branch
    git push -u origin master
