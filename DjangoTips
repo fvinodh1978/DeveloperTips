@@ -1,0 +1,28 @@
+I. Setup Django Envoironment
+============================
+1. Install Python
+2. python3 --version  
+3. Setup virtual Env and Activate it
+    python3 -m venv .venv   
+    . .venv/scripts/activiate  
+
+4. Install Django
+    pip install django 
+
+5. Install DjangoRestFramework
+    pip install djangorestframework
+
+6. Create a Django project
+    django-admin startproject CrossCheck . 
+
+7. Start the Server
+    python manage.py runserver
+
+8. Create user/Password for the Django UI
+    python manage.py createsuperuser
+
+9. Create Migration Scripts for the Models
+     python manage.py makemigrations CrossCheck
+
+10. Apply Migration
+     python manage.py migrate  
