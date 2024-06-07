@@ -12,6 +12,9 @@ I. Setup Django Envoironment
 5. Install DB Client
     python -m pip install mysqlclient
 
+6. Install pytest
+    pip install pytest
+
 5. Install DjangoRestFramework
     pip install djangorestframework
 
