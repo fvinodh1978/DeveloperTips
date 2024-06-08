@@ -1,4 +1,17 @@
-Create a new Angular application
+Install NodeJS from below Site
+  https://nodejs.org/en
+
+Install angular CLI globally
+  npm install -g @angular/cli@17
+  
+Create a new Angular application Standalone
   ng new <Application Name>
-Add a New App without Standalone
+
+Create a new Angular application without Standalone
   ng new my-app --no-standalone --routing --ssr=false
+
+Add Material Dependency to the Application
+  ng add @angular/material
+
+Create Environment Folder on to the Application
+  ng g environments
