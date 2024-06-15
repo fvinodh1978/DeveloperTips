@@ -27,8 +27,11 @@ I. Setup Django Envoironment
 8. Create user/Password for the Django UI
     python manage.py createsuperuser
 
-9. Create Migration Scripts for the Models
+9. Change Password of a user
+    python manage.py changepassword <user_name>
+
+10. Create Migration Scripts for the Models
      python manage.py makemigrations CrossCheck
 
-10. Apply Migration
+11. Apply Migration
      python manage.py migrate  
