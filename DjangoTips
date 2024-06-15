@@ -15,23 +15,26 @@ I. Setup Django Envoironment
 6. Install pytest
     pip install pytest
 
-5. Install DjangoRestFramework
+7. Install DjangoRestFramework
     pip install djangorestframework
 
-6. Create a Django project
+8. Create a Django project
     django-admin startproject CrossCheck . 
 
-7. Start the Server
+9. Start the Server
     python manage.py runserver
 
-8. Create user/Password for the Django UI
+10. Create user/Password for the Django UI
     python manage.py createsuperuser
 
-9. Change Password of a user
+11. Change Password of a user
     python manage.py changepassword <user_name>
 
-10. Create Migration Scripts for the Models
+12. Create Migration Scripts for the Models
      python manage.py makemigrations CrossCheck
 
-11. Apply Migration
+13. Apply Migration
      python manage.py migrate  
+
+14. Start the Server
+    python manage.py runserver
