@@ -22,20 +22,17 @@ I. Setup Django Envoironment
 8. Create a Django project
     django-admin startproject CrossCheck . 
 
-9. Start the Server
-    python manage.py runserver
-
-10. Create user/Password for the Django UI
+9. Create user/Password for the Django UI
     python manage.py createsuperuser
 
-11. Change Password of a user
+10. Change Password of a user
     python manage.py changepassword <user_name>
 
-12. Create Migration Scripts for the Models
+11. Create Migration Scripts for the Models
      python manage.py makemigrations CrossCheck
 
-13. Apply Migration
+12. Apply Migration
      python manage.py migrate  
 
-14. Start the Server
+13. Start the Server
     python manage.py runserver
