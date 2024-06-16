@@ -5,6 +5,7 @@ I. Setup Django Envoironment
 3. Setup virtual Env and Activate it
     python3 -m venv .venv   
     . .venv/scripts/activiate  
+    . .\.venv\scripts\activate
 
 4. Install Django
     pip install django 
