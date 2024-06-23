@@ -1,17 +1,20 @@
-Install NodeJS from below Site
+1. Install NodeJS from below Site
   https://nodejs.org/en
 
-Install angular CLI globally
+2. Install angular CLI globally
   npm install -g @angular/cli@17
   
-Create a new Angular application Standalone
+3. Create a new Angular application Standalone
   ng new <Application Name>
 
-Create a new Angular application without Standalone
+4. Create a new Angular application without Standalone
   ng new my-app --no-standalone --routing --ssr=false
 
-Add Material Dependency to the Application
+5. Add Material Dependency to the Application
   ng add @angular/material
 
-Create Environment Folder on to the Application
+6. Create Environment Folder on to the Application
   ng g environments
+
+7. Install Bootstrap
+  npm install --save bootstrap
