@@ -13,6 +13,9 @@
 5. Add Material Dependency to the Application
   ng add @angular/material
 
+6. Create Angular Component
+  ng g c componentname
+
 6. Create Environment Folder on to the Application
   ng g environments
 
