@@ -12,6 +12,8 @@
 
 5. Add Material Dependency to the Application
   ng add @angular/material
+  npm install @angular/animations --save
+  npm install ngx-toastr --save
 
 6. Create Angular Component
   ng g c componentname
