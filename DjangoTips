@@ -7,33 +7,36 @@ I. Setup Django Envoironment
     . .venv/scripts/activiate  
      . .\\.venv\\scripts\\activate
 
-4. Install Django
+4. Create a Django project
+    django-admin startproject CrossCheck . 
+
+5. Create user/Password for the Django UI
+    python manage.py createsuperuser
+
+6. Install Django
     pip install django 
 
-5. Install DB Client
+7. Install DB Client
     python -m pip install mysqlclient
 
-6. Install pytest
+8. Install pytest
     pip install pytest
 
-7. Install DjangoRestFramework
+9. Install DjangoRestFramework
     pip install djangorestframework
     pip install djangorestframework djangorestframework-simplejwt
 
-8. Create a Django project
-    django-admin startproject CrossCheck . 
+10. Install Schedulers
+    pip install django-apscheduler
 
-9. Create user/Password for the Django UI
-    python manage.py createsuperuser
-
-10. Change Password of a user
+11. Change Password of a user
     python manage.py changepassword <user_name>
 
-11. Create Migration Scripts for the Models
+12. Create Migration Scripts for the Models
      python manage.py makemigrations CrossCheck
 
-12. Apply Migration
+13. Apply Migration
      python manage.py migrate  
 
-13. Start the Server
+14. Start the Server
     python manage.py runserver
