@@ -14,6 +14,7 @@
   ng add @angular/material
   npm install @angular/animations --save
   npm install ngx-toastr --save
+  npm i mat-table-exporter@14.0.0
 
 6. Create Angular Component
   ng g c componentname
@@ -23,3 +24,9 @@
 
 7. Install Bootstrap
   npm install --save bootstrap
+
+===================================================
+
+ng g c table --module app.module.ts
+ng g c dialog-box --module app.module.ts
+ng g c alert-box --module app.module.ts
